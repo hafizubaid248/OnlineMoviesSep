@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Movies Platform</title>
+    <link rel="stylesheet" href="Netflix.css">
+
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="/NetflixClone/1-removebg-preview.png" class="logo" >
+            <div>
+              
+                <button onclick="redirectToSignin()">Sign-In</button>
+                <button onclick="redirectToSignup()">Sign-Up</button> 
+                <button onclick="redirectToAdd()">Add Movies</button>  
+                <button onclick="redirectToWatch()">Watch Movies</button>  
+                <a href="/AddMovie/Addmovie.html"></a>
+
+
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to my Online Movies Page</h1>
+            <h3>watch anywhere anythime </h3>
+            <p>ready to watch? Just click on sign up page and create your account just by entering Username, Password and Email</p>
+        
+        </div>
+
+    </div>
+    
+</body>
+<script>
+    function redirectToSignup() {
+        window.location.href = "/Signup/signup.html";
+    }
+    function redirectToSignin() {
+        window.location.href = "/Signin/signin.html";
+    }
+    function redirectToAdd() {
+        window.location.href = "/AddMovie/Addmovie.html";
+    }
+    function redirectToWatch() {
+        window.location.href = "/AllMovies/AllMovies.html";
+    }
+</script>
+</html>

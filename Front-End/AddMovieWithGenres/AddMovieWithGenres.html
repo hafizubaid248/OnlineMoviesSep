@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie with Genres</title>
+   
+    <link rel="stylesheet" href="AddMovieWithGenres.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+   
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+   
+  
+ 
+</head>
+<body>
+    <div class="add-movie-genres-container">
+        <h2>Add Movie with Genres</h2>
+        <form id="add-movie-genres-form">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="release-date">Release Date:</label>
+                <input type="date" id="release-date" name="release-date" value="01/01/1900" required >
+            </div>
+            <div class="form-group">
+                <label for="genres">Genres:</label>
+                <select multiple id="genres" name="genres" required >
+               
+                </select>
+            </div>
+            <button type="submit">Add Movie with Genres</button>
+        </form>
+        <div class="result-message"></div>
+    </div>
+    
+
+   
+    
+   
+   
+</body>
+<script src="AddMovieWithGenres.js"></script>
+
+</html>

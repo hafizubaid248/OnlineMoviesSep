@@ -1,0 +1,47 @@
+/* Add your custom CSS styles here */
+
+.shopping-cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+table.display {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table.display th, table.display td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table.display th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table.display tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.display tr:hover {
+    background-color: #ddd;
+}
+
+button.add-to-cart-button, button.remove-from-cart-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.add-to-cart-button:hover, button.remove-from-cart-button:hover {
+    background-color: #0056b3;
+}
